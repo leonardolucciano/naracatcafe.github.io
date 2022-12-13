@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  Mistral Font Import  -->
+    <link rel="stylesheet" href="fonts/mistral-font.css" />
+    <!--  Main Layout Styles  -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!--  Swiper Slider Core Styles  -->
+    <link rel="stylesheet" href="css/swiper-bundle-min.css" />
+    <title>NARA : CAT CAFE</title>
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+
+            <!--  Follow Us  -->
+            <div class="follow-us">
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-tiktok"></i></a></li>
+                    <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+
+            <!--  Logo  -->
+            <div class="logo">
+                <h3>Na<span class="ra">Ra</span><span class="quote">Cat Cafe</span></h3>
+                
+                <a href="index.html">
+                    <img src="assets/Logo.png" alt="Nara : Cat Cafe" />
+                </a>
+                
+                <div class="circle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <!--  Hamburger Icon  -->
+            <input type="checkbox" id="check">
+            <label for="check" class="hamburger-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <!--  Navigation List  -->
+            <ul class="nav-list">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="#">Reservation</a></li>
+                <li><a href="#">Contact</a></li>
+                
+                <ul class="Login">
+                    <li><a href="#" class="login-btn">Login</a></li>
+                    <li><a href="#" class="login-btn">Register</a></li>
+                </ul>
+
+                <ul class="social-media">
+                    <li><i class="fab fa-facebook"></i></li>
+                    <li><i class="fab fa-tiktok"></i></li>
+                    <li><i class="fab fa-whatsapp"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                </ul>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--  Home Section  -->
+        <section class="home">
+            <!-- Swiper -->
+            <div class="swiper home-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <!-- <img src="assets/glass.jpg" alt="Nara" /> -->
+                        <video autoplay loop muted plays-inline class="background-video">
+                            <source src="assets/video.mp4" type="video/mp4"/>
+                        </video>
+                        <div class="bg-layer"></div>
+                        <div class="text-content parallax--bg">
+                            <h3 class="sub-title">
+                                <span>Welcome To</span>
+                            </h3>
+                            <h2 class="title">
+                                <span class="unique-color">NA</span>RA <span style="color: rgb(0, 140, 255);">CAT </span><span class="unique-color">CA</span>FE
+                            </h2>                            
+                            <p>A place where you can chill, relax and have fun with cats while enjoying our various drinks and food.</p>
+                        </div>
+
+                        <!--
+                        <div class="overview">
+                            <ul class="overview-list row justify-space-around">
+                                <li class = "col-6-xm">
+                                    <div class="overview-caption">
+                                        <a href="#"><img src="assets/coffee.jpg" alt="Nara" /></a>
+                                        <h3>Drinks</h3>
+                                    </div>
+                                </li>
+                                <li class = "col-6-xm">
+                                    <div class="overview-caption">
+                                        <a href="#"><img src="assets/food.jpg" alt="Nara" /></a>
+                                        <h3>Food</h3>
+                                    </div>
+                                </li>
+                                <li class = "col-6-xm">
+                                    <div class="overview-caption">
+                                        <a href="#"><img src="assets/Goffer.jpg" alt="Nara" /></a>
+                                        <h3>Birthday</h3>
+                                    </div>
+                                </li>
+                                <li class = "col-6-xm">
+                                    <div class="overview-caption">
+                                        <a href="#"><img src="assets/glass.jpg" alt="Nara" /></a>
+                                        <h3>Romantic Date</h3>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        -->
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/Hero.jpg" alt="Nara" />
+                        <div class="bg-layer"></div>
+                        <div class="text-content">
+                            <h2 class="title">Book Your <span>Birthday</span></h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <button class="read-btn"> Read More <i class="fa-solid fa-angles-right"></i></button>
+                        </div>    
+                        <div class="booking">
+                            <form action="#" class="booking-form">
+                                <input type="date" placeholder="Birthday Date" />
+                                <label for="depart" class="label-date"><i class="fa fa-calendar"></i>&nbsp;&nbsp;Pick the Date</label>
+                                <input type="time" placeholder="Birthday Time" />
+                                <label for="depart" class="label-date"><i class="fa fa-calendar"></i>&nbsp;&nbsp;Pick the Time</label>
+                                <input type="submit" value="NEXT STEP">
+                            </form>
+                        </div>                    
+                    </div>                    
+                    <div class="swiper-slide">
+                        <img src="assets/Hero.jpg" alt="Nara" />
+                        <div class="text-content">
+                            <h2 class="title">Our <span>Food</span></h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <button class="read-btn"> Read More <i class="fa-solid fa-circle-info"></i></button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/Hero.jpg" alt="Nara" />
+                        <div class="text-content">
+                            <h2 class="title">Our <span>Drinks</span></h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <button class="read-btn"> Read More <i class="fa-solid fa-circle-info"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!--  Food & Drink Section  -->
+        <section class="food-drink">
+            <div class="container row justify-center">
+                <div class="heading col-12-xm">
+                    <p>We provide a wide variety of high-quality food and drink to make your day tasty and fresh, some of our most commonly served food and drink :</p>
+                </div>
+                <div class="slide-container swiper swiper-2">
+                    <div class="slide-content swiper-wrapper col-12-xm">
+                        <div class="card-wrapper swiper-slide">
+                            <div class="card-image">
+                                <img src="assets/coffee.jpg" alt="" />
+                            </div>
+                            <div class="card-content">
+                                <h3>Coffee Drinks</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <button>View More</button>
+                            </div>
+                        </div>
+                        <div class="card-wrapper swiper-slide">
+                            <div class="card-image">
+                                <img src="assets/Goffer.jpg" alt="" />
+                            </div>
+                            <div class="card-content">
+                                <h3>Bakery & Sweets</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <button>View More</button>
+                            </div>
+                        </div>
+                        <div class="card-wrapper swiper-slide">
+                            <div class="card-image">
+                                <img src="assets/coffee.jpg" alt="" />
+                            </div>
+                            <div class="card-content">
+                                <h3>Tea Drinks</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <button>View More</button>
+                            </div>
+                        </div>
+                        <div class="card-wrapper swiper-slide">
+                            <div class="card-image">
+                                <img src="assets/Goffer.jpg" alt="" />
+                            </div>
+                            <div class="card-content">
+                                <h3>Sandwiches</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <button>View More</button>
+                            </div>
+                        </div>
+                        <div class="card-wrapper swiper-slide">
+                            <div class="card-image">
+                                <img src="assets/coffee.jpg" alt="" />
+                            </div>
+                            <div class="card-content">
+                                <h3>Chocalate</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <button>View More</button>
+                            </div>
+                        </div>
+                        <div class="card-wrapper swiper-slide">
+                            <div class="card-image">
+                                <img src="assets/Goffer.jpg" alt="" />
+                            </div>
+                            <div class="card-content">
+                                <h3>Cakes</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <button>View More</button>
+                            </div>
+                        </div>
+                        <div class="card-wrapper swiper-slide">
+                            <div class="card-image">
+                                <img src="assets/coffee.jpg" alt="" />
+                            </div>
+                            <div class="card-content">
+                                <h3>Pasta</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <button>View More</button>
+                            </div>
+                        </div>
+                        <div class="card-wrapper swiper-slide">
+                            <div class="card-image">
+                                <img src="assets/Goffer.jpg" alt="" />
+                            </div>
+                            <div class="card-content">
+                                <h3>Plates</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <button>View More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!--  Quote Section  -->
+        <section class="fun-fact-quote">
+            <div class="container">
+                <div class="quote-content row">
+                    <div class="quote-title col-12">
+                        <h3>Fun Fact :</h3>
+                    </div>
+                    <div class="quote-text col-12">
+                        <img src="assets/fun-fact-coffee-cup.png" alt=""/>    
+                        <span>&ldquo;</span>                    
+                        <blockquote>                            
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry, dummy text of the printing and typesetting industry, dummy text of the printing and typesetting industry.
+                        </blockquote>        
+                        <span>&bdquo;</span>                
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Swiper JS -->
+    <script src="scripts/swiper-bundle-min.js"></script>
+
+    <!-- Main JS -->
+    <script src="scripts/main.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        // Home hero swiper
+        var swiper1 = new Swiper(".home-swiper", {
+            pagination: {
+            el: ".swiper-pagination",
+            dynamicBullets: true,
+            },
+        });
+
+        // Food & Drinks swiper
+        var swiper2 = new Swiper(".swiper-2", {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        centerSlide: 'true',
+        fade: 'true',
+        grabCursor: 'true',
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          dynamicBullets: true,
+        },
+        breakpoints: {
+            0: {
+                slidesPerView: 1,
+            },
+            520: {
+                slidesPerView: 2,
+            },
+            745: {
+                slidesPerView: 3,
+            },
+            1024: {
+                slidesPerView: 4,
+            },
+            1600: {
+                slidesPerView: 5,
+            },
+        },
+      });
+    </script>
+</body>
+</html>
